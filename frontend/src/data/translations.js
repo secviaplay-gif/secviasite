@@ -72,7 +72,7 @@ export const translations = {
       disclaimer: 'Пробный период предоставляется через Google Play. После окончания автоматически начинается платная подписка.',
       month: 'месяц',
       months: 'месяцев',
-      year: 'год',
+      year: 'месяцев',
       from: 'от',
       popular: 'Популярный',
       cta: 'Установить из Google Play'
@@ -130,26 +130,37 @@ export const translations = {
       sections: [
         {
           title: 'Какие данные мы собираем',
-          content: 'Мы собираем минимальный объём данных, необходимый для работы сервиса:\n• Device ID (технический идентификатор устройства)\n• Токены подписки Google Play\n• Минимальные диагностические логи\n• Email (только если вы сами обращаетесь в поддержку)'
+          content:
+            'Мы собираем минимальный объём данных, необходимый для работы сервиса:\n' +
+            '• Device ID (технический идентификатор устройства)\n' +
+            '• Токены подписки Google Play\n' +
+            '• Минимальные диагностические логи\n' +
+            '• Email (только если вы сами обращаетесь в поддержку)',
         },
         {
           title: 'Какие данные мы НЕ собираем',
-          content: 'Мы НЕ собираем:\n• Историю посещений сайтов\n• Содержимое вашего интернет-трафика\n• Персональные данные сверх необходимого'
+          content:
+            'Мы НЕ собираем:\n' +
+            '• Историю посещений сайтов\n' +
+            '• Содержимое вашего интернет-трафика\n' +
+            '• Персональные данные сверх необходимого',
         },
         {
           title: 'Оплата и подписка',
-          content: 'Все платежи обрабатываются через Google Play. Мы не имеем доступа к данным вашей платёжной карты.'
+          content:
+            '• Все платежи обрабатываются через Google Play. Мы не имеем доступа к данным вашей платёжной карты.',
         },
         {
           title: 'Хранение данных',
-          content: 'Технические данные хранятся в зашифрованном виде на защищённых серверах.'
+          content: 'Технические данные хранятся в зашифрованном виде на защищённых серверах.',
         },
         {
           title: 'Контакт',
-          content: 'По вопросам конфиденциальности обращайтесь: support@secvia.app'
-        }
-      ]
+          content: 'По вопросам конфиденциальности обращайтесь: support@secvia.app',
+        },
+      ],
     },
+
     
     // Terms Page
     terms: {
@@ -274,7 +285,7 @@ export const translations = {
       disclaimer: 'Пробний період надається через Google Play. Після завершення автоматично починається платна підписка.',
       month: 'місяць',
       months: 'місяців',
-      year: 'рік',
+      year: 'місяців',
       from: 'від',
       popular: 'Популярний',
       cta: 'Встановити з Google Play'
@@ -332,25 +343,35 @@ export const translations = {
       sections: [
         {
           title: 'Які дані ми збираємо',
-          content: 'Ми збираємо мінімальний обсяг даних, необхідний для роботи сервісу:\n• Device ID (технічний ідентифікатор пристрою)\n• Токени підписки Google Play\n• Мінімальні діагностичні логи\n• Email (тільки якщо ви самі звертаєтесь до підтримки)'
+          content:
+            'Ми збираємо мінімальний обсяг даних, необхідний для роботи сервісу:\n' +
+            '• Device ID (технічний ідентифікатор пристрою)\n' +
+            '• Токени підписки Google Play\n' +
+            '• Мінімальні діагностичні логи\n' +
+            '• Email (лише якщо ви самі звертаєтесь до служби підтримки)',
         },
         {
           title: 'Які дані ми НЕ збираємо',
-          content: 'Ми НЕ збираємо:\n• Історію відвідувань сайтів\n• Вміст вашого інтернет-трафіку\n• Персональні дані понад необхідне'
+          content:
+            'Ми НЕ збираємо:\n' +
+            '• Історію відвідування сайтів\n' +
+            '• Вміст вашого інтернет-трафіку\n' +
+            '• Персональні дані понад необхідне',
         },
         {
           title: 'Оплата та підписка',
-          content: 'Усі платежі обробляються через Google Play. Ми не маємо доступу до даних вашої платіжної картки.'
+          content:
+            'Усі платежі обробляються через Google Play. Ми не маємо доступу до даних вашої платіжної картки.',
         },
         {
           title: 'Зберігання даних',
-          content: 'Технічні дані зберігаються в зашифрованому вигляді на захищених серверах.'
+          content: 'Технічні дані зберігаються у зашифрованому вигляді на захищених серверах.',
         },
         {
-          title: 'Контакт',
-          content: 'З питань конфіденційності звертайтесь: support@secvia.app'
-        }
-      ]
+          title: 'Контакти',
+          content: 'З питань конфіденційності звертайтесь: support@secvia.app',
+        },
+      ],
     },
     
     // Terms Page
@@ -476,7 +497,7 @@ export const translations = {
       disclaimer: 'Trial is provided via Google Play. After the trial ends, a paid subscription starts automatically.',
       month: 'month',
       months: 'months',
-      year: 'year',
+      year: 'months',
       from: 'from',
       popular: 'Popular',
       cta: 'Get it on Google Play'
@@ -534,25 +555,35 @@ export const translations = {
       sections: [
         {
           title: 'What data we collect',
-          content: 'We collect minimal data necessary for service operation:\n• Device ID (technical device identifier)\n• Google Play subscription tokens\n• Minimal diagnostic logs\n• Email (only if you contact support)'
+          content:
+            'We collect the minimum amount of data required to operate the service:\n' +
+            '• Device ID (technical device identifier)\n' +
+            '• Google Play subscription tokens\n' +
+            '• Minimal diagnostic logs\n' +
+            '• Email (only if you contact support)',
         },
         {
-          title: 'What data we DO NOT collect',
-          content: 'We DO NOT collect:\n• Browsing history\n• Content of your internet traffic\n• Personal data beyond what\'s necessary'
+          title: 'What data we do NOT collect',
+          content:
+            'We do NOT collect:\n' +
+            '• Browsing history\n' +
+            '• Contents of your internet traffic\n' +
+            '• Personal data beyond what is necessary',
         },
         {
-          title: 'Payment and subscription',
-          content: 'All payments are processed through Google Play. We do not have access to your payment card details.'
+          title: 'Payments and subscriptions',
+          content:
+           'All payments are processed via Google Play. We do not have access to your payment card details.',
         },
         {
           title: 'Data storage',
-          content: 'Technical data is stored encrypted on secure servers.'
+          content: 'Technical data is stored in encrypted form on secure servers.',
         },
         {
           title: 'Contact',
-          content: 'For privacy inquiries contact: support@secvia.app'
-        }
-      ]
+          content: 'For privacy-related inquiries, contact: support@secvia.app',
+        },
+      ],
     },
     
     // Terms Page
